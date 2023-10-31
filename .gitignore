@@ -1,0 +1,37 @@
+## User settings
+
+*.xcodeproj
+*.pbxproj
+project.pbxproj
+**/FailureDiffs
+
+DerivedData/
+xcuserdata/
+*.swp
+*~.storyboard
+*~.nib
+*.xccheckout
+*.xcscmblueprint
+vendor/
+.bundle/
+
+.DS_Store
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# fastlane
+fastlane/report.xml
+Fastlane/test_output/*
+
+.build/
+
+# CocoaPods
+*.xcworkspace
+Pods/
+R.generated.swift
+
+# Rugby
+.rugby/*
